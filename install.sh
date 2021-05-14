@@ -2,6 +2,6 @@
 
 brew bundle
 
-ruby-install ruby 2.7
+ruby-install ruby 2.7 --no-reinstall
 
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sed -i '' 's/plugins=.*/plugins=(git,z)/' ~/.zshrc
