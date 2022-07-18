@@ -1,10 +1,23 @@
-brew 'chruby'
-brew 'ruby-install'
-brew 'jq'
-brew 'tldr'
-brew 'ag'
-brew 'z'
-brew 'direnv'
-
-cask 'telegram'
-cask 'iterm2'
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/services"
+brew "cask"
+brew "chruby"
+brew "direnv"
+brew "elixir"
+brew "fswatch"
+brew "hey"
+brew "jq"
+brew "postgresql", restart_service: true
+brew "postgresql@13"
+brew "ruby-install"
+brew "the_silver_searcher"
+brew "tldr"
+brew "tree"
+brew "watch"
+brew "wget"
+brew "z"
+cask "iterm2"
+cask "telegram"
