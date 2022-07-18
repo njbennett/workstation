@@ -4,6 +4,7 @@ brew 'jq'
 brew 'tldr'
 brew 'ag'
 brew 'z'
+brew 'direnv'
 
 cask 'telegram'
 cask 'iterm2'
