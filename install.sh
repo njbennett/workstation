@@ -1,6 +1,8 @@
 #!/bin/zsh
 
 brew bundle
+brew bundle --force cleanup
+brew update
 
 ruby-install ruby 2.7 --no-reinstall
 asdf plugin add elixir
