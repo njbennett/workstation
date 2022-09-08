@@ -7,6 +7,7 @@ endif
 " note that you will need to run :PlugInstall when this changes
 call plug#begin()
 Plug 'elixir-editors/vim-elixir'
+Plug 'overcache/NeoSolarized'
 call plug#end()
 
 " Enable syntax highlighting
@@ -15,3 +16,6 @@ syntax on
 " Enables filetype detection, loads ftplugin, and loads indent
 " (Not necessary on nvim and may not be necessary on vim 8.2+)
 filetype plugin indent on
+
+set termguicolors
+colorscheme NeoSolarized
