@@ -15,3 +15,6 @@ asdf global elixir 1.13.4-otp-25
 
 sed -i '' 's/plugins=.*/plugins=(git z)/' ~/.zshrc
 grep -qxF '. /usr/local/opt/asdf/libexec/asdf.sh' ~/.zshrc || echo '. /usr/local/opt/asdf/libexec/asdf.sh' >> ~/.zshrc
+
+mkdir -p ~/.config/nvim
+ln -fs ./init.vim ~/.config/nvim/init.vim

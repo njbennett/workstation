@@ -10,6 +10,7 @@ brew "direnv"
 brew "fswatch"
 brew "hey"
 brew "jq"
+brew "nvim"
 brew "postgresql", restart_service: true
 brew "postgresql@13"
 brew "ruby-install"
