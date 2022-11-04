@@ -13,6 +13,11 @@ asdf global erlang 25.0.4
 asdf install elixir 1.13.4-otp-25
 asdf global elixir 1.13.4-otp-25
 
+# for node development
+asdf plugin-add node-js
+asdf install nodejs 16.5.0
+asdf global nodejs 16.5.0
+
 # for stable diffusion
 asdf plugin-add python
 asdf install python 3.8.4
