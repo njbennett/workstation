@@ -26,3 +26,4 @@ sed -i '' 's/plugins=.*/plugins=(git z)/' ~/.zshrc
 grep -qxF '. /usr/local/opt/asdf/libexec/asdf.sh' ~/.zshrc || echo '. /usr/local/opt/asdf/libexec/asdf.sh' >> ~/.zshrc
 
 cp -r ./init.vim ~/.config/nvim/init.vim
+nvim -es ./update-plugins.txt
