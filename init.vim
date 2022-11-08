@@ -8,7 +8,20 @@ endif
 call plug#begin()
 Plug 'elixir-editors/vim-elixir'
 Plug 'overcache/NeoSolarized'
+
+" --- Plugins to make things more Luan's Vim-y ---
+" a tree explorer plugin
+Plug 'scrooloose/nerdtree'
 call plug#end()
+
+" Active fork of kien/ctrlp.vim. Fuzzy file, buffer, mru, tag, etc finder.
+Plug 'ctrlpvim/ctrlp.vim'
+" }}}
+
+"--- End Luan's Vim section ---
+"
+" line numbers for pairing
+set number
 
 " Enable syntax highlighting
 syntax on
