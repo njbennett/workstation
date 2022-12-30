@@ -12,6 +12,9 @@ Plug 'overcache/NeoSolarized'
 " --- Plugins to make things more Luan's Vim-y ---
 " a tree explorer plugin
 Plug 'scrooloose/nerdtree'
+
+" github copilot
+Plug 'github/copilot.vim'
 call plug#end()
 
 " Active fork of kien/ctrlp.vim. Fuzzy file, buffer, mru, tag, etc finder.

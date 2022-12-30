@@ -26,4 +26,5 @@ sed -i '' 's/plugins=.*/plugins=(git z)/' ~/.zshrc
 grep -qxF '. /usr/local/opt/asdf/libexec/asdf.sh' ~/.zshrc || echo '. /usr/local/opt/asdf/libexec/asdf.sh' >> ~/.zshrc
 
 cp -r ./init.vim ~/.config/nvim/init.vim
+git config --global --add url."git@github.com:".insteadOf "https://github.com/"
 nvim -es ./update-plugins.txt
