@@ -8,6 +8,10 @@ tap "homebrew/services"
 # for the aws cli
 tap "aws/tap"
 
+# install hashicorp terraform
+tap "hashicorp/tap"
+brew "terraform"
+
 # terminal and text editor
 cask "iterm2"
 brew "nvim"
@@ -16,7 +20,6 @@ brew "nvim"
 brew "cask"
 brew "asdf"
 brew "wget"
-
 
 # good tools to have on the command line
 brew "direnv"
