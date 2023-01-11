@@ -9,6 +9,9 @@ call plug#begin()
 Plug 'elixir-editors/vim-elixir'
 Plug 'overcache/NeoSolarized'
 
+" more languages, but especially for Terraform
+Plug 'sheerun/vim-polyglot'
+
 " --- Plugins to make things more Luan's Vim-y ---
 " a tree explorer plugin
 Plug 'scrooloose/nerdtree'
