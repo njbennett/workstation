@@ -2,22 +2,22 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "17c14dcdd644c25b7435909ed1528fb3cf5fb419"
+        "revision": "cc9747cd3b28628b6d70789c7c6a97d675dd1ff1"
       },
       "homebrew/cask": {
-        "revision": "b58242cee5efc1818b0e55c2d8fc90d3a1053529"
+        "revision": "531b2820058cad0808a6c68918d40aac6acc1b57"
       },
       "homebrew/cask-versions": {
-        "revision": "db73b2812ac6777cd7c2b1e7391a9b5025b8e4ea"
+        "revision": "6426a00ad2d7d2acf3bf560b8ef7d4d0dd8c0567"
       },
       "homebrew/core": {
-        "revision": "f1cc9710e2ca916eeb3bf62c6b2695902608570f"
+        "revision": "34bbd048d0e948678ab4390687ff963360750368"
       },
       "homebrew/services": {
         "revision": "167aeeacefb51fca6191282531a26481e62b565c"
       },
       "aws/tap": {
-        "revision": "e3f245085c1bd33f6d32663d98dc199f769afafb"
+        "revision": "31cce5a3f38bb026979fc3a76f8985801e128d93"
       },
       "hashicorp/tap": {
         "revision": "a2249b2cfa0cd8b1aa3f24d36e811728eb966e8a"
@@ -1013,7 +1013,7 @@
         }
       },
       "visual-studio-code": {
-        "version": "1.74.2",
+        "version": "1.74.3",
         "options": {
           "full_name": "visual-studio-code"
         }
@@ -1033,7 +1033,7 @@
       "ventura": {
         "HOMEBREW_VERSION": "3.6.18",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "f1cc9710e2ca916eeb3bf62c6b2695902608570f",
+        "Homebrew/homebrew-core": "34bbd048d0e948678ab4390687ff963360750368",
         "CLT": "12.0.0.32.28",
         "Xcode": "12.4",
         "macOS": "13.1"
