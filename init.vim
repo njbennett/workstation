@@ -8,6 +8,7 @@ endif
 call plug#begin()
 Plug 'elixir-editors/vim-elixir'
 Plug 'overcache/NeoSolarized'
+Plug 'github/copilot.vim'
 
 " --- Plugins to make things more Luan's Vim-y ---
 Plug 'scrooloose/nerdtree'
