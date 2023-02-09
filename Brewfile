@@ -40,6 +40,3 @@ brew "ruby-install"
 # Need a Postgres for most app dev work
 brew "postgresql", restart_service: true
 brew "postgresql@13"
-
-# managing Python environments
-cask "anaconda"
