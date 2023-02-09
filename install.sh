@@ -4,7 +4,10 @@ brew bundle
 brew bundle --force cleanup
 brew update
 
-ruby-install ruby 2.7 --no-reinstall
+asdf plugin add ruby
+asdf install ruby 2.7.1
+asdf global ruby 2.7.1
+
 asdf plugin add erlang
 asdf plugin add elixir
 

@@ -31,12 +31,6 @@ brew "hey"
 cask "freedom"
 cask "telegram"
 
-# I usually like to have Ruby around
-# chruby is my Ruby manager of choice
-# I should maybe switch to asdf though
-brew "chruby"
-brew "ruby-install"
-
 # Need a Postgres for most app dev work
 brew "postgresql", restart_service: true
 brew "postgresql@13"
