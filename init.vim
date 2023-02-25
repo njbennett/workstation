@@ -11,7 +11,6 @@ Plug 'overcache/NeoSolarized'
 Plug 'github/copilot.vim'
 
 " --- Plugins to make things more Luan's Vim-y ---
-Plug 'scrooloose/nerdtree'
 Plug 'ctrlpvim/ctrlp.vim'
 "--- End Luan's Vim section ---
 call plug#end()
