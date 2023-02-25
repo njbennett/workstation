@@ -19,6 +19,7 @@ asdf global elixir 1.13.4-otp-25
 sed -i '' 's/plugins=.*/plugins=(git z)/' ~/.zshrc
 grep -qxF '. /usr/local/opt/asdf/libexec/asdf.sh' ~/.zshrc || echo '. /usr/local/opt/asdf/libexec/asdf.sh' >> ~/.zshrc
 
-cp ./init.lua ~/.config/nvim/init.lua
+rm ~/.config/nvim/init.lua
+ln -s ~/workspace/workstation/init.lua ~/.config/nvim/init.lua
 git config --global --add url."git@github.com:".insteadOf "https://github.com/"
 nvim -es ./update-plugins.txt
