@@ -21,4 +21,14 @@ plugins = {
 
 require("lazy").setup(plugins)
 
-vim.cmd('source ~/workspace/workstation/init.vim')
+--- set line numbers for pairing
+vim.opt.number = true
+
+--- enable syntax highlighting
+vim.opt.syntax = "on"
+
+--- enable 24-bit RGB colors
+vim.opt.termguicolors = true
+
+--- set the colorscheme
+vim.cmd("colorscheme NeoSolarized")
