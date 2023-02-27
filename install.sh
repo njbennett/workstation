@@ -11,10 +11,10 @@ asdf global ruby 2.7.1
 asdf plugin add erlang
 asdf plugin add elixir
 
-asdf install erlang 25.0.4
-asdf global erlang 25.0.4
-asdf install elixir 1.13.4-otp-25
-asdf global elixir 1.13.4-otp-25
+asdf install erlang 25.2.3
+asdf global erlang 25.2.3
+asdf install elixir 1.14.3-otp-25
+asdf global elixir 1.14.3-otp-25
 
 sed -i '' 's/plugins=.*/plugins=(git z)/' ~/.zshrc
 grep -qxF '. /usr/local/opt/asdf/libexec/asdf.sh' ~/.zshrc || echo '. /usr/local/opt/asdf/libexec/asdf.sh' >> ~/.zshrc
