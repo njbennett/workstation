@@ -34,3 +34,6 @@ cask "telegram"
 # Need a Postgres for most app dev work
 brew "postgresql", restart_service: true
 brew "postgresql@13"
+
+# for Zero development
+brew "flyctl"
