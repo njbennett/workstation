@@ -14,7 +14,6 @@ vim.opt.rtp:prepend(lazypath)
 plugins = {
   { "elixir-editors/vim-elixir" },
   { 'overcache/NeoSolarized' },
-  { 'github/copilot.vim' },
 --- make things a bit Luan's vim-ier
   { 'ctrlpvim/ctrlp.vim' }
 }
