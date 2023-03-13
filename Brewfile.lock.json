@@ -2,19 +2,19 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "99dc787b5095521ef071fbca970c822936733009"
+        "revision": "4c5d4cf248f2981f66ea8988f81d6afc63edee85"
       },
       "homebrew/cask": {
         "revision": "581d8845ef4ed6d731b547bb152486f97ce7e34e"
       },
       "homebrew/cask-versions": {
-        "revision": "95f9806fe5db4455f671cde06d121817778399be"
+        "revision": "3696d3aef9bcf167591a85ea1d9801e371c46201"
       },
       "homebrew/core": {
         "revision": "92fa3ad27955bd3a8ae47c7c51152037d50ed026"
       },
       "homebrew/services": {
-        "revision": "61b2f5caae6bb8c67c054a63f23d105be828f5f8"
+        "revision": "84881e62f69d68615e1549cb1ababb1c844d687d"
       }
     },
     "cask": {
@@ -31,7 +31,7 @@
         }
       },
       "telegram": {
-        "version": "9.4.1,243742",
+        "version": "9.4.2,243859",
         "options": {
           "full_name": "telegram"
         }
@@ -793,13 +793,57 @@
             }
           }
         }
+      },
+      "flyctl": {
+        "version": "0.0.484",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_ventura": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/flyctl/blobs/sha256:b920df19ab0c011ad77d1887b509dc9b26d1a478e432f1001828b7779d02336d",
+              "sha256": "b920df19ab0c011ad77d1887b509dc9b26d1a478e432f1001828b7779d02336d"
+            },
+            "arm64_monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/flyctl/blobs/sha256:b920df19ab0c011ad77d1887b509dc9b26d1a478e432f1001828b7779d02336d",
+              "sha256": "b920df19ab0c011ad77d1887b509dc9b26d1a478e432f1001828b7779d02336d"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/flyctl/blobs/sha256:b920df19ab0c011ad77d1887b509dc9b26d1a478e432f1001828b7779d02336d",
+              "sha256": "b920df19ab0c011ad77d1887b509dc9b26d1a478e432f1001828b7779d02336d"
+            },
+            "ventura": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/flyctl/blobs/sha256:f21d5af1be766710c3be57af5b06b588afb66479e98d94277c53a560c7cd4222",
+              "sha256": "f21d5af1be766710c3be57af5b06b588afb66479e98d94277c53a560c7cd4222"
+            },
+            "monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/flyctl/blobs/sha256:f21d5af1be766710c3be57af5b06b588afb66479e98d94277c53a560c7cd4222",
+              "sha256": "f21d5af1be766710c3be57af5b06b588afb66479e98d94277c53a560c7cd4222"
+            },
+            "big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/flyctl/blobs/sha256:f21d5af1be766710c3be57af5b06b588afb66479e98d94277c53a560c7cd4222",
+              "sha256": "f21d5af1be766710c3be57af5b06b588afb66479e98d94277c53a560c7cd4222"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/flyctl/blobs/sha256:687ee0b7299e4057ea39011f7950cb684a853c9f07dd5ff70179a29de9c40ade",
+              "sha256": "687ee0b7299e4057ea39011f7950cb684a853c9f07dd5ff70179a29de9c40ade"
+            }
+          }
+        }
       }
     }
   },
   "system": {
     "macos": {
       "ventura": {
-        "HOMEBREW_VERSION": "4.0.3",
+        "HOMEBREW_VERSION": "4.0.6",
         "HOMEBREW_PREFIX": "/usr/local",
         "Homebrew/homebrew-core": "api",
         "CLT": "12.0.0.32.28",
