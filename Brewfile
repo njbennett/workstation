@@ -37,3 +37,7 @@ brew "postgresql@13"
 
 # for Zero development
 brew "flyctl"
+
+# for Magic
+tap "rconroy293/seventeenlands"
+brew "rconroy293/seventeenlands/seventeenlands", restart_service: true
