@@ -30,6 +30,7 @@ brew "hey"
 # some apps I like to have around
 cask "freedom"
 cask "telegram"
+cask "anki"
 
 # Need a Postgres for most app dev work
 brew "postgresql", restart_service: true
