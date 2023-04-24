@@ -38,6 +38,7 @@ brew "postgresql@13"
 
 # for Zero development
 brew "flyctl"
+brew "ctags"
 
 # for Magic
 tap "rconroy293/seventeenlands"
