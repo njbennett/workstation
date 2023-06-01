@@ -1,0 +1,13 @@
+#!/bin/zsh
+set -eux
+
+dir=~/workspace/elixir-ls
+git -C "${dir}" pull || git clone https://github.com/elixir-lsp/elixir-ls.git "${dir}"
+
+pushd "${dir}"
+  mix deps.get
+  MIX_ENV=prod mix compile
+  MIX_ENV=prod mix elixir_ls.release
+popd "${dir}"
+
+ln -s "${dir}/release/language_server.sh" "/usr/local/bin/language_server.sh"

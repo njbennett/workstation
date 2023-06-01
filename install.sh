@@ -16,6 +16,8 @@ asdf global erlang 25.2.3
 asdf install elixir 1.14.3-otp-25
 asdf global elixir 1.14.3-otp-25
 
+./install-elixir-ls
+
 sed -i '' 's/plugins=.*/plugins=(git z)/' ~/.zshrc
 grep -qxF '. /usr/local/opt/asdf/libexec/asdf.sh' ~/.zshrc || echo '. /usr/local/opt/asdf/libexec/asdf.sh' >> ~/.zshrc
 

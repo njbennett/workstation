@@ -12,13 +12,29 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 plugins = {
-  { "elixir-editors/vim-elixir" },
+--- { "elixir-editors/vim-elixir" },
   { 'overcache/NeoSolarized' },
+  { 'numkil/ag.nvim' },
+  { 'neovim/nvim-lspconfig' },
 --- make things a bit Luan's vim-ier
   { 'ctrlpvim/ctrlp.vim' }
 }
 
 require("lazy").setup(plugins)
+
+--- lspconfig
+require("lspconfig").elixirls.setup{
+  cmd = { "language_server.sh" };
+}
+
+-- Use LspAttach autocommand to only map the following keys
+-- after the language server attaches to the current buffer
+vim.api.nvim_create_autocmd('LspAttach', {
+  group = vim.api.nvim_create_augroup('UserLspConfig', {}),
+  callback = function(ev)
+    vim.keymap.set('n', 'gd', vim.lsp.buf.definition, { buffer = ev.buf })
+  end,
+})
 
 --- set line numbers for pairing
 vim.opt.number = true
