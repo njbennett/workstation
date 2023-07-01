@@ -16,6 +16,9 @@ asdf global erlang 25.2.3
 asdf install elixir 1.14.3-otp-25
 asdf global elixir 1.14.3-otp-25
 
+asdf plugin add lua https://github.com/Stratus3D/asdf-lua.git
+asdf install lua 5.1.5
+
 ./install-elixir-ls
 
 sed -i '' 's/plugins=.*/plugins=(git z)/' ~/.zshrc
