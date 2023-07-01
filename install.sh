@@ -18,6 +18,7 @@ asdf global elixir 1.14.3-otp-25
 
 asdf plugin add lua https://github.com/Stratus3D/asdf-lua.git
 asdf install lua 5.1.5
+asdf global lua 5.1.5
 
 ./install-elixir-ls
 
