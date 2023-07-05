@@ -14,6 +14,9 @@ brew "cask"
 brew "asdf"
 brew "wget"
 
+# pairing
+brew "tmate"
+
 # make the computer computer more good with a window manager
 cask "rectangle"
 
