@@ -46,6 +46,9 @@ brew "postgresql@13"
 brew "flyctl"
 brew "ctags"
 
+# for Nvim plugins
+brew "ripgrep"
+
 # for Magic
 tap "rconroy293/seventeenlands"
 brew "rconroy293/seventeenlands/seventeenlands", restart_service: true

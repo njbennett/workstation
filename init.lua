@@ -30,7 +30,11 @@ plugins = {
       -- or leave it empty to use the default settings
       -- refer to the configuration section below
     }
-  }
+  },
+	{
+    'nvim-telescope/telescope.nvim', tag = '0.1.2',
+      dependencies = { 'nvim-lua/plenary.nvim' }
+   }
 }
 
 require("lazy").setup(plugins)
