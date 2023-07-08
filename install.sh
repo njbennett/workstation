@@ -1,4 +1,5 @@
 #!/bin/zsh
+set -eu
 
 brew bundle
 brew bundle --force cleanup
