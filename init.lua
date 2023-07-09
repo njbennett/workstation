@@ -11,7 +11,7 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-plugins = {
+local plugins = {
 --- { "elixir-editors/vim-elixir" },
   { 'AlexvZyl/nordic.nvim' },
   { 'neovim/nvim-lspconfig' },
@@ -43,6 +43,15 @@ require("lazy").setup(plugins)
 require("lspconfig").elixirls.setup{
   cmd = { "language_server.sh" };
 }
+
+require'lspconfig'.lua_ls.setup{
+  settings = {
+    Lua = {
+      diagnostics = { globals = {'vim'} }
+    }
+	}
+}
+
 
 --- fancy syntax highlighting
 require'nvim-treesitter.configs'.setup {
