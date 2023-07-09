@@ -48,6 +48,7 @@ brew "ctags"
 
 # for Nvim plugins
 brew "ripgrep"
+brew "lua-language-server"
 
 # for Concourse work
 tap "engineerbetter/homebrew-tap"
