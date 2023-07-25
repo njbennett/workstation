@@ -62,6 +62,12 @@
         "options": {
           "full_name": "1password-cli"
         }
+      },
+      "1password": {
+        "version": "8.10.8",
+        "options": {
+          "full_name": "1password"
+        }
       }
     },
     "brew": {
