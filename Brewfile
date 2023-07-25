@@ -49,14 +49,3 @@ brew "ctags"
 # for Nvim plugins
 brew "ripgrep"
 brew "lua-language-server"
-
-# for Concourse work
-tap "engineerbetter/homebrew-tap"
-brew "engineerbetter/tap/control-tower"
-tap "cloudfoundry/tap"
-brew "cloudfoundry/tap/bosh-cli"
-brew "terraform"
-
-# for Magic
-tap "rconroy293/seventeenlands"
-brew "rconroy293/seventeenlands/seventeenlands", restart_service: true

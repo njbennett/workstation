@@ -4,23 +4,21 @@ brew bundle
 brew bundle --force cleanup
 brew update
 
-asdf plugin add ruby
-asdf install ruby 2.7.1
-asdf global ruby 2.7.1
+asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+asdf install nodejs 18.16.1
+asdf global nodjs 18.16.1
 
-asdf plugin add erlang
-asdf plugin add elixir
+asdf plugin-add elm https://github.com/asdf-community/asdf-elm.git
+asdf install elm 0.19.1
+asdf global elm 0.19.1
 
-asdf install erlang 25.2.3
-asdf global erlang 25.2.3
-asdf install elixir 1.14.3-otp-25
-asdf global elixir 1.14.3-otp-25
+asdf plugin-add elm-format https://github.com/mariohuizar/asdf-elm-format.git
+asdf install elm-format 0.8.4
+asdf global elm-format 0.8.4
 
 asdf plugin add lua https://github.com/Stratus3D/asdf-lua.git
 asdf install lua 5.1.5
 asdf global lua 5.1.5
-
-./install-elixir-ls
 
 sed -i '' 's/plugins=.*/plugins=(git z)/' ~/.zshrc
 grep -qxF '. /usr/local/opt/asdf/libexec/asdf.sh' ~/.zshrc || echo '. /usr/local/opt/asdf/libexec/asdf.sh' >> ~/.zshrc
