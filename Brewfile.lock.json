@@ -56,6 +56,12 @@
         "options": {
           "full_name": "rectangle"
         }
+      },
+      "1password-cli": {
+        "version": "2.19.0",
+        "options": {
+          "full_name": "1password-cli"
+        }
       }
     },
     "brew": {

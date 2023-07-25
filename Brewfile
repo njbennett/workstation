@@ -45,3 +45,6 @@ brew "postgresql@13"
 # for Nvim plugins
 brew "ripgrep"
 brew "lua-language-server"
+
+# for local dev environmentA
+cask "1password-cli"
