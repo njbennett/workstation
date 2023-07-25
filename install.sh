@@ -6,7 +6,7 @@ brew update
 
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 asdf install nodejs 18.16.1
-asdf global nodjs 18.16.1
+asdf global nodejs 18.16.1
 
 asdf plugin-add elm https://github.com/asdf-community/asdf-elm.git
 asdf install elm 0.19.1

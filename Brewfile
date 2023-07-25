@@ -42,10 +42,6 @@ cask "anki"
 brew "postgresql", restart_service: true
 brew "postgresql@13"
 
-# for Zero development
-brew "flyctl"
-brew "ctags"
-
 # for Nvim plugins
 brew "ripgrep"
 brew "lua-language-server"
