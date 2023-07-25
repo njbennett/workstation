@@ -40,10 +40,6 @@ local plugins = {
 require("lazy").setup(plugins)
 
 --- lspconfig
-require("lspconfig").elixirls.setup{
-  cmd = { "language_server.sh" };
-}
-
 require'lspconfig'.lua_ls.setup{
   settings = {
     Lua = {
@@ -52,11 +48,14 @@ require'lspconfig'.lua_ls.setup{
 	}
 }
 
-
 --- fancy syntax highlighting
 require'nvim-treesitter.configs'.setup {
   ensure_installed = {
+    "css",
+    "elm",
+		"go",
     "html",
+		"javascript",
     "lua"
   },
   highlight = { enable = true},
