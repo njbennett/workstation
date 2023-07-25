@@ -56,6 +56,7 @@ require'lspconfig'.lua_ls.setup{
 --- fancy syntax highlighting
 require'nvim-treesitter.configs'.setup {
   ensure_installed = {
+    "cue",
     "eex",
     "elixir",
     "erlang",
