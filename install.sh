@@ -16,6 +16,8 @@ asdf plugin-add elm-format https://github.com/mariohuizar/asdf-elm-format.git
 asdf install elm-format 0.8.4
 asdf global elm-format 0.8.4
 
+npm install -g elm elm-test elm-format @elm-tooling/elm-language-server
+
 asdf plugin-add go https://github.com/asdf-community/asdf-golang.git
 asdf install golang 1.19.11
 asdf global golang 1.19.11
