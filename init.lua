@@ -83,6 +83,15 @@ vim.api.nvim_create_autocmd('BufWritePre', {
 })
 
 --- keybindings
+local wk = require("which-key")
+wk.register({
+	f = {
+		name = "file",                                -- optional group name
+		f = { "<cmd>Telescope find_files<cr>", "Find File" }, -- create a binding with label
+		g = { "<cmd>Telescope live_grep<cr>", "Full Text Search" }, -- create a binding with label
+	},
+}, { prefix = "<leader>" })
+
 -- autosave
 vim.opt.autowriteall = true
 
