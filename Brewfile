@@ -16,6 +16,9 @@ brew "wget"
 # pairing
 brew "tmate"
 
+# enterprise business value
+cask "slack"
+
 # make the computer computer more good with a window manager
 cask "rectangle"
 
@@ -31,11 +34,6 @@ brew "z"
 
 # sometimes you just want to run a load test you know?
 brew "hey"
-
-# some apps I like to have around
-cask "freedom"
-cask "telegram"
-cask "anki"
 
 # Need a Postgres for most app dev work
 brew "postgresql", restart_service: true

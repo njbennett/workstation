@@ -5,7 +5,7 @@
         "revision": "3acd40719ab4484b1fc95336d0301f04821611c5"
       },
       "homebrew/cask": {
-        "revision": "5ac8ded3b13efb7f2174433640df74d87d40fecb"
+        "revision": "90b03b77d79e0408ed804e271f08ba4fb77ac30c"
       },
       "homebrew/cask-versions": {
         "revision": "423f1e6bb5b2762235ae0589b9b273b80d4f9141"
@@ -67,6 +67,12 @@
         "version": "8.10.9",
         "options": {
           "full_name": "1password"
+        }
+      },
+      "slack": {
+        "version": "4.33.84",
+        "options": {
+          "full_name": "slack"
         }
       }
     },
