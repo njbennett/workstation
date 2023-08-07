@@ -11,7 +11,6 @@ brew "nvim"
 
 # things to install things
 brew "cask"
-brew "asdf"
 brew "wget"
 
 # pairing
