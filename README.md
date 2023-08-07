@@ -1,6 +1,9 @@
 This is my workstation setup script. There are many like it, but this one is mine.
 
-To set up a new workstation, clone this repo and then run
+Before running this script
+- install Xcode by running `git` and the following the instructions.
+- [create a new ssh key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) for the workstation and add it to get,
+- clone this repo and then run
 
 ```
 ./bootstrap.sh
