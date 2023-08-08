@@ -18,6 +18,7 @@ brew "tmate"
 
 # enterprise business value
 cask "slack"
+cask "spotify"
 
 # make the computer computer more good with a window manager
 cask "rectangle"
