@@ -86,6 +86,18 @@
         "options": {
           "full_name": "spotify"
         }
+      },
+      "google-chrome": {
+        "version": "115.0.5790.170",
+        "options": {
+          "full_name": "google-chrome"
+        }
+      },
+      "intellij-idea": {
+        "version": "2023.2,232.8660.185",
+        "options": {
+          "full_name": "intellij-idea"
+        }
       }
     },
     "brew": {

@@ -45,3 +45,7 @@ brew "lua-language-server"
 # for local dev environmentA
 cask "1password-cli"
 cask "1password"
+
+# web development
+cask "google-chrome"
+cask "intellij-idea"
