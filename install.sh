@@ -10,11 +10,7 @@ asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 asdf install nodejs 18.16.1
 asdf global nodejs 18.16.1
 
-npm install -g elm elm-test elm-format @elm-tooling/elm-language-server
-
-asdf plugin-add elm https://github.com/asdf-community/asdf-elm.git
-asdf install elm 0.19.1
-asdf global elm 0.19.1
+npm install -g @lydell/elm elm-test elm-format @elm-tooling/elm-language-server
 
 asdf plugin-add elm-format https://github.com/mariohuizar/asdf-elm-format.git
 asdf install elm-format 0.8.4

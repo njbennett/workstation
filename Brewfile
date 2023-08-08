@@ -32,12 +32,12 @@ brew "tree"
 brew "watch"
 brew "z"
 
+# the simplest way to manage a Postgres on Mac
+cask "postgres-unofficial"
+brew "libpq"
+
 # sometimes you just want to run a load test you know?
 brew "hey"
-
-# Need a Postgres for most app dev work
-brew "postgresql", restart_service: true
-brew "postgresql@13"
 
 # for Nvim plugins
 brew "ripgrep"
