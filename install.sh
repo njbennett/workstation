@@ -12,10 +12,6 @@ asdf global nodejs 18.16.1
 
 npm install -g @lydell/elm elm-test elm-format @elm-tooling/elm-language-server
 
-asdf plugin-add elm-format https://github.com/mariohuizar/asdf-elm-format.git
-asdf install elm-format 0.8.4
-asdf global elm-format 0.8.4
-
 asdf plugin-add golang https://github.com/asdf-community/asdf-golang.git
 asdf install golang 1.19.11
 asdf global golang 1.19.11
