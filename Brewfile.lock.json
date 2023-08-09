@@ -8,7 +8,7 @@
         "revision": "b08d52ea680cdc6302061cbd9b71d32e37f2a8f5"
       },
       "homebrew/cask-versions": {
-        "revision": "b7351b5571144cc51587c378963711d3143d6b2d"
+        "revision": "76e3335bf743e5cef97940f6e3b872fa3c05872c"
       },
       "homebrew/core": {
         "revision": "546af89400d95dc2b47be54cf27b6965461c6a6f"
@@ -97,6 +97,12 @@
         "version": "2023.2,232.8660.185",
         "options": {
           "full_name": "intellij-idea"
+        }
+      },
+      "tuple": {
+        "version": "0.107.0,2023-08-08,e1d49bbb9",
+        "options": {
+          "full_name": "tuple"
         }
       }
     },

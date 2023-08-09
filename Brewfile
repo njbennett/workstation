@@ -13,6 +13,7 @@ brew "wget"
 
 # pairing
 brew "tmate"
+cask "tuple"
 
 # enterprise business value
 cask "slack"
