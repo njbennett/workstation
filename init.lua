@@ -13,7 +13,7 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
-	--- { "elixir-editors/vim-elixir" },
+	{ 'github/copilot.vim' },
 	{ 'AlexvZyl/nordic.nvim' },
 	{ 'neovim/nvim-lspconfig' },
 	--- make things a bit Luan's vim-ier
