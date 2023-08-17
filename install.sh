@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-sed -i '' 's/plugins=.*/plugins=(asdf git z)/' ~/.zshrc
+ln -sf ~/workspace/workstation/.zshrc ~/.zshrc
 
 brew bundle -v
 brew bundle --force cleanup

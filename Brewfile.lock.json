@@ -8,7 +8,7 @@
         "revision": "b08d52ea680cdc6302061cbd9b71d32e37f2a8f5"
       },
       "homebrew/cask-versions": {
-        "revision": "76e3335bf743e5cef97940f6e3b872fa3c05872c"
+        "revision": "5b8029c446984027a5d10a37f09f8189ff0e2964"
       },
       "homebrew/core": {
         "revision": "546af89400d95dc2b47be54cf27b6965461c6a6f"
@@ -28,7 +28,7 @@
     },
     "cask": {
       "iterm2": {
-        "version": "3.4.19",
+        "version": "3.4.20",
         "options": {
           "full_name": "iterm2"
         }
@@ -70,13 +70,13 @@
         }
       },
       "slack": {
-        "version": "4.33.84",
+        "version": "4.33.90",
         "options": {
           "full_name": "slack"
         }
       },
       "postgres-unofficial": {
-        "version": "2.6.4,11-12-13-14-15-16",
+        "version": "2.6.5,11-12-13-14-15-16",
         "options": {
           "full_name": "postgres-unofficial"
         }
@@ -88,7 +88,7 @@
         }
       },
       "google-chrome": {
-        "version": "115.0.5790.170",
+        "version": "116.0.5845.96",
         "options": {
           "full_name": "google-chrome"
         }
