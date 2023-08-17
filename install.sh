@@ -1,6 +1,7 @@
 #!/bin/zsh
 
 ln -sf ~/workspace/workstation/.zshrc ~/.zshrc
+ln -sf ~/workspace/workstation/.gitconfig ~/.gitconfig
 
 brew bundle -v
 brew bundle --force cleanup
