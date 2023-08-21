@@ -7,6 +7,8 @@ brew bundle -v
 brew bundle --force cleanup
 brew update
 
+brew link --force libpq
+
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 asdf install nodejs 18.16.1
 asdf global nodejs 18.16.1
