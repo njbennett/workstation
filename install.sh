@@ -19,6 +19,8 @@ asdf plugin-add golang https://github.com/asdf-community/asdf-golang.git
 asdf install golang 1.19.11
 asdf global golang 1.19.11
 
+go install golang.org/x/tools/gopls@latest
+
 asdf plugin add lua https://github.com/Stratus3D/asdf-lua.git
 asdf install lua 5.1.5
 asdf global lua 5.1.5
