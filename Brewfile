@@ -19,8 +19,9 @@ cask "tuple"
 cask "slack"
 cask "spotify"
 
-# make the computer computer more good with a window manager
+# make the computer computer more good
 cask "rectangle"
+cask "flycut"
 
 # good tools to have on the command line
 brew "direnv"
