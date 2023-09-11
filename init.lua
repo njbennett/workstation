@@ -54,6 +54,11 @@ require 'lspconfig'.gopls.setup {}
 
 require 'lspconfig'.elmls.setup {}
 
+--- code folding
+vim.o.foldmethod = "expr"
+vim.o.foldexpr = "nvim_treesitter#foldexpr()"
+
+
 --- fancy syntax highlighting
 require 'nvim-treesitter.configs'.setup {
 	ensure_installed = {
