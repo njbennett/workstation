@@ -18,6 +18,8 @@ local plugins = {
 	{ 'neovim/nvim-lspconfig' },
 	--- make things a bit Luan's vim-ier
 	{ 'ctrlpvim/ctrlp.vim' },
+	{ 'kevinhwang91/promise-async' },
+	{ 'kevinhwang91/nvim-ufo' },
 	{ 'nvim-treesitter/nvim-treesitter', build = ":TSUpdate" },
 	{
 		"folke/which-key.nvim",
@@ -42,21 +44,31 @@ local plugins = {
 require("lazy").setup(plugins)
 
 --- lspconfig
-require 'lspconfig'.lua_ls.setup {
-	settings = {
-		Lua = {
-			diagnostics = { globals = { 'vim' } }
-		}
-	}
+local lspconfig = require 'lspconfig'
+
+vim.o.foldcolumn = '1' -- '0' is not bad
+vim.o.foldlevel = 99   -- Using ufo provider need a large value, feel free to decrease the value
+vim.o.foldlevelstart = 99
+vim.o.foldenable = true
+
+local capabilities = vim.lsp.protocol.make_client_capabilities()
+capabilities.textDocument.foldingRange = {
+	dynamicRegistration = false,
+	lineFoldingOnly = true
 }
-
-require 'lspconfig'.gopls.setup {}
-
-require 'lspconfig'.elmls.setup {}
-
---- code folding
-vim.o.foldmethod = "expr"
-vim.o.foldexpr = "nvim_treesitter#foldexpr()"
+local language_servers = require("lspconfig").util.available_servers() -- or list servers manually like {'gopls', 'clangd'}
+for _, ls in ipairs(language_servers) do
+	require('lspconfig')[ls].setup({
+		capabilities = capabilities,
+		settings = {
+			Lua = {
+				diagnostics = { globals = { 'vim' } }
+			}
+		}
+		-- you can add other fields for setting up lsp server in this table
+	})
+end
+require('ufo').setup()
 
 
 --- fancy syntax highlighting
@@ -88,6 +100,9 @@ vim.api.nvim_create_autocmd('BufWritePre', {
 		vim.lsp.buf.format({ timeout_ms = 3000 })
 	end,
 })
+
+vim.keymap.set('n', 'zR', require('ufo').openAllFolds)
+vim.keymap.set('n', 'zM', require('ufo').closeAllFolds)
 
 --- keybindings
 local wk = require("which-key")
