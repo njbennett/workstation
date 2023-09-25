@@ -112,6 +112,13 @@ wk.register({
 		f = { "<cmd>Telescope find_files<cr>", "Find File" }, -- create a binding with label
 		g = { "<cmd>Telescope live_grep<cr>", "Full Text Search" }, -- create a binding with label
 	},
+	d = {
+		name = "diagnostic",
+		o = { "<cmd>lua vim.diagnostic.open_float()<cr>", "Open Diagnostic" },
+		n = { "<cmd>lua vim.diagnostic.goto_next()<cr>", "Next Diagnostic" },
+		p = { "<cmd>lua vim.diagnostic.goto_prev()<cr>", "Previous Diagnostic" },
+		d = { "<cmd>Telescope diagnostics<cr>", "List Diagnostics" }
+	},
 }, { prefix = "<leader>" })
 
 -- autosave
