@@ -87,10 +87,12 @@ require 'nvim-treesitter.configs'.setup {
 
 -- Use LspAttach autocommand to only map the following keys
 -- after the language server attaches to the current buffer
+-- TODO: convert this to use which-key
 vim.api.nvim_create_autocmd('LspAttach', {
 	group = vim.api.nvim_create_augroup('UserLspConfig', {}),
 	callback = function(ev)
 		vim.keymap.set('n', 'gd', vim.lsp.buf.definition, { buffer = ev.buf })
+		vim.keymap.set('n', 'gr', require('telescope.builtin').lsp_references, { buffer = ev.buf })
 	end,
 })
 
@@ -109,9 +111,10 @@ vim.keymap.set('n', 'zM', require('ufo').closeAllFolds)
 local wk = require("which-key")
 wk.register({
 	f = {
-		name = "file",                                -- optional group name
+		name = "file",                          -- optional group name
 		f = { "<cmd>Telescope find_files<cr>", "Find File" }, -- create a binding with label
-		g = { "<cmd>Telescope live_grep<cr>", "Full Text Search" }, -- create a binding with label
+		g = { "<cmd>Telescope live_grep<cr>", "Full Text Search" },
+		b = { "<cmd>Telescope buffers<cr>", "Buffers" },
 	},
 	d = {
 		name = "diagnostic",
