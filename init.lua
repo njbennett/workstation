@@ -85,17 +85,6 @@ require 'nvim-treesitter.configs'.setup {
 	highlight = { enable = true },
 }
 
--- Use LspAttach autocommand to only map the following keys
--- after the language server attaches to the current buffer
--- TODO: convert this to use which-key
-vim.api.nvim_create_autocmd('LspAttach', {
-	group = vim.api.nvim_create_augroup('UserLspConfig', {}),
-	callback = function(ev)
-		vim.keymap.set('n', 'gd', vim.lsp.buf.definition, { buffer = ev.buf })
-		vim.keymap.set('n', 'gr', require('telescope.builtin').lsp_references, { buffer = ev.buf })
-	end,
-})
-
 -- Format on writes
 vim.api.nvim_create_autocmd('BufWritePre', {
 	buffer = vim.fn.bufnr(),
@@ -125,6 +114,18 @@ wk.register({
 	},
 }, { prefix = "<leader>" })
 
+vim.api.nvim_create_autocmd({ "LspAttach" }, {
+	callback = function()
+		wk.register({
+			g = {
+				name = "Goto",
+				d = { vim.lsp.buf.definition, "Go to definition" },
+				r = { require("telescope.builtin").lsp_references,
+					"Open a telescope window with references" },
+			},
+		}, { buffer = 0 })
+	end
+})
 -- autosave
 vim.opt.autowriteall = true
 
