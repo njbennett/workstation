@@ -8,13 +8,13 @@
         "revision": "b08d52ea680cdc6302061cbd9b71d32e37f2a8f5"
       },
       "homebrew/cask-versions": {
-        "revision": "7ecfccaa821725aa49917e6ab0c1e2e2fc497845"
+        "revision": "916fa873d894476ea301fa62eb18ae91f77ff638"
       },
       "homebrew/core": {
         "revision": "546af89400d95dc2b47be54cf27b6965461c6a6f"
       },
       "homebrew/services": {
-        "revision": "f130d397efc2fd3d3c418839c84afce9a5c63e80"
+        "revision": "c17b19e0ff4acc6db35123ec5f91311ee4520bd2"
       },
       "rconroy293/seventeenlands": {
         "revision": "7a730edf6efdfc72e77b9f7d34b450bc351ba3d3"
@@ -52,7 +52,7 @@
         }
       },
       "rectangle": {
-        "version": "0.73",
+        "version": "0.74",
         "options": {
           "full_name": "rectangle"
         }
@@ -70,7 +70,7 @@
         }
       },
       "slack": {
-        "version": "4.34.121",
+        "version": "4.35.121",
         "options": {
           "full_name": "slack"
         }
@@ -88,7 +88,7 @@
         }
       },
       "google-chrome": {
-        "version": "118.0.5993.117",
+        "version": "119.0.6045.105",
         "options": {
           "full_name": "google-chrome"
         }
@@ -100,7 +100,7 @@
         }
       },
       "tuple": {
-        "version": "0.109.1,2023-10-20,37efa3614",
+        "version": "0.110.2,2023-10-31,31bdf88f1",
         "options": {
           "full_name": "tuple"
         }
@@ -1424,13 +1424,67 @@
             }
           }
         }
+      },
+      "golang-migrate": {
+        "version": "4.16.2",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_sonoma": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/golang-migrate/blobs/sha256:ff486cb023e5b2db81cc9e0c2261e8225174742f14d5309809ab1bdf5722b0a6",
+              "sha256": "ff486cb023e5b2db81cc9e0c2261e8225174742f14d5309809ab1bdf5722b0a6"
+            },
+            "arm64_ventura": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/golang-migrate/blobs/sha256:f2f515ca7d39000e6ab7a2637a24b97450c9479bb7b8864ac36da79a5a875071",
+              "sha256": "f2f515ca7d39000e6ab7a2637a24b97450c9479bb7b8864ac36da79a5a875071"
+            },
+            "arm64_monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/golang-migrate/blobs/sha256:8e1f5a21769c1f89858b20000f1763bc57cc22fc3d7d9cf19b3ec28592289fa7",
+              "sha256": "8e1f5a21769c1f89858b20000f1763bc57cc22fc3d7d9cf19b3ec28592289fa7"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/golang-migrate/blobs/sha256:581f5b92cdb2b93bab4e56e798f0b303423f9cd530323746e85f1feda7a7375a",
+              "sha256": "581f5b92cdb2b93bab4e56e798f0b303423f9cd530323746e85f1feda7a7375a"
+            },
+            "sonoma": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/golang-migrate/blobs/sha256:b438cbf758972e3667bfa3907845cca3ccac358e5c076ec07978ae6b78ea6e05",
+              "sha256": "b438cbf758972e3667bfa3907845cca3ccac358e5c076ec07978ae6b78ea6e05"
+            },
+            "ventura": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/golang-migrate/blobs/sha256:61e5f0aa60ef5a03c4ba43846acb9aebc6f1bedb6e646731db3b9a9e9cf5560f",
+              "sha256": "61e5f0aa60ef5a03c4ba43846acb9aebc6f1bedb6e646731db3b9a9e9cf5560f"
+            },
+            "monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/golang-migrate/blobs/sha256:f7013038bbc60be6e5a693ee3bc5c429b01a76a8a5f008f74d6880d81d2c1992",
+              "sha256": "f7013038bbc60be6e5a693ee3bc5c429b01a76a8a5f008f74d6880d81d2c1992"
+            },
+            "big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/golang-migrate/blobs/sha256:80b6de5aefc91b1739fb02ce357e3012b6c6ae17e169cbc5676646e6c37dbaa9",
+              "sha256": "80b6de5aefc91b1739fb02ce357e3012b6c6ae17e169cbc5676646e6c37dbaa9"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/golang-migrate/blobs/sha256:bcaf86db4ff812d7249c022949edd5a3e6a5e7ad26e3d741ca24a743b53f64cf",
+              "sha256": "bcaf86db4ff812d7249c022949edd5a3e6a5e7ad26e3d741ca24a743b53f64cf"
+            }
+          }
+        }
       }
     }
   },
   "system": {
     "macos": {
       "ventura": {
-        "HOMEBREW_VERSION": "4.1.17",
+        "HOMEBREW_VERSION": "4.1.18",
         "HOMEBREW_PREFIX": "/opt/homebrew",
         "Homebrew/homebrew-core": "api",
         "CLT": "14.3.1.0.1.1683849156",

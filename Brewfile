@@ -51,4 +51,4 @@ cask "1password"
 
 # web development
 cask "google-chrome"
-cask "intellij-idea"
+brew "golang-migrate"
