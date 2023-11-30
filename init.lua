@@ -103,6 +103,8 @@ vim.api.nvim_create_autocmd('BufWritePre', {
 vim.keymap.set('n', 'zR', require('ufo').openAllFolds)
 vim.keymap.set('n', 'zM', require('ufo').closeAllFolds)
 
+
+require("elmmake")
 --- keybindings
 local wk = require("which-key")
 wk.register({
@@ -119,6 +121,10 @@ wk.register({
 		p = { "<cmd>lua vim.diagnostic.goto_prev()<cr>", "Previous Diagnostic" },
 		d = { "<cmd>Telescope diagnostics<cr>", "List Diagnostics" }
 	},
+	e = {
+		name = "Elm",
+		m = { "<cmd>ElmMake<cr>", "Elm Make" }
+	}
 }, { prefix = "<leader>" })
 
 vim.api.nvim_create_autocmd({ "LspAttach" }, {
