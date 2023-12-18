@@ -24,6 +24,7 @@ go install golang.org/x/tools/gopls@latest
 asdf plugin add lua https://github.com/Stratus3D/asdf-lua.git
 asdf install lua 5.1.5
 asdf global lua 5.1.5
+ln -sf ~/workspace/workstation/elmmake.lua /opt/homebrew/share/luajit-2.1.0-beta3/elmmake.lua
 
 mkdir -p ~/.config/nvim
 ln -sf ~/workspace/workstation/init.lua ~/.config/nvim/init.lua
