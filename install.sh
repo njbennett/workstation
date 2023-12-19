@@ -28,5 +28,5 @@ ln -sf ~/workspace/workstation/elmmake.lua /opt/homebrew/share/luajit-2.1.0-beta
 
 mkdir -p ~/.config/nvim
 ln -sf ~/workspace/workstation/init.lua ~/.config/nvim/init.lua
-git config --global --add url."git@github.com:".insteadOf "https://github.com/"
+git config --global --get url."git@github.com:".insteadOf "https://github.com/" || git config --global --add url."git@github.com:".insteadOf "https://github.com/"
 nvim -es ./update-plugins.txt
