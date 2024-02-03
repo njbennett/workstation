@@ -1,8 +1,6 @@
 # tap all the normal stuff
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "homebrew/cask-versions"
-tap "homebrew/core"
 tap "homebrew/services"
 
 # terminal and text editor
@@ -48,14 +46,3 @@ brew "ctags"
 
 # for Nvim plugins
 brew "ripgrep"
-
-# for Concourse work
-tap "engineerbetter/homebrew-tap"
-brew "engineerbetter/tap/control-tower"
-tap "cloudfoundry/tap"
-brew "cloudfoundry/tap/bosh-cli"
-brew "terraform"
-
-# for Magic
-tap "rconroy293/seventeenlands"
-brew "rconroy293/seventeenlands/seventeenlands", restart_service: true
