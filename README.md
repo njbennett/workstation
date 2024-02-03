@@ -5,6 +5,8 @@ This is my workstation setup script. There are many like it, but this one is min
 This script assumes you have git installed, which will require installing xcode on a new Mac.
 You can install xcode by running `git` on the command line.
 
+You don't need to install iterm2, the script will do it for you.
+
 To set up a new workstation, clone this repo and then run
 
 ```
@@ -34,7 +36,6 @@ When updating ./install.sh script, I use a test && commit || revert workflow.
 Here's a checklist of the other stuff you usually like to do on a new workstation
 
 1. [Make a new keypair for the machine and add it to Github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) 
-3. [Install iTerm2] Install [iterm](https://iterm2.com)
 4. Consider trying shell and then decide against it
 5. Right click on all those distracting colored squares and click "Options -> Remove from Dock"
 6. Arrange Displays (search for "Displays" in settings, then click the "Arrange..." button)
