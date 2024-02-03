@@ -20,6 +20,7 @@ asdf global lua 5.1.5
 sed -i '' 's/plugins=.*/plugins=(git z)/' ~/.zshrc
 grep -qxF '. /usr/local/opt/asdf/libexec/asdf.sh' ~/.zshrc || echo '. /usr/local/opt/asdf/libexec/asdf.sh' >> ~/.zshrc
 
+mkdir ~/.config/nvim
 ln -sf ~/workspace/workstation/init.lua ~/.config/nvim/init.lua
 git config --global --add url."git@github.com:".insteadOf "https://github.com/"
 nvim -es ./update-plugins.txt
