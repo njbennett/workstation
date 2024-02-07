@@ -7,5 +7,8 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # install zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-# make necessary directories
-mkdir ~/.config/nvim
+# install asdf
+git clone "https://github.com/asdf-vm/asdf.git" "~/.asdf" --branch "v0.12.0"
+
+# for backwards compatibility
+softwareupdate --install-rosetta
