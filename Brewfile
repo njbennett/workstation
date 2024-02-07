@@ -14,11 +14,17 @@ brew "wget"
 
 # pairing
 brew "tmate"
+cask "tuple"
 
-# make the computer computer more good with a window manager
+# enterprise business value
+cask "spotify"
+
+# make the computer computer more good
 cask "rectangle"
+cask "flycut"
 
 # good tools to have on the command line
+brew "bat"
 brew "direnv"
 brew "fswatch"
 brew "jq"
