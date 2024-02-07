@@ -23,3 +23,6 @@ grep -qxF '. /usr/local/opt/asdf/libexec/asdf.sh' ~/.zshrc || echo '. /usr/local
 ln -sf ~/workspace/workstation/init.lua ~/.config/nvim/init.lua
 git config --global --add url."git@github.com:".insteadOf "https://github.com/"
 nvim -es ./update-plugins.txt
+
+git config --global user.name "Nat Bennett"
+git config --global user.email nat@simplermachines.com
