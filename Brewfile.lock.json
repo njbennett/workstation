@@ -2,19 +2,19 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "aa54974fcce3c4e55fdb88732b47dad9b1bacb0a"
+        "revision": "66ededca544a9851662967aacdaa3c9b1b5da709"
       },
       "homebrew/cask": {
         "revision": "581d8845ef4ed6d731b547bb152486f97ce7e34e"
       },
       "homebrew/cask-versions": {
-        "revision": "bab614080fa9e5902d436920935266a71fb6260b"
+        "revision": "402ecbebf93f560d24a315d9c3b8f4c5af6b2adf"
       },
       "homebrew/core": {
         "revision": "92fa3ad27955bd3a8ae47c7c51152037d50ed026"
       },
       "homebrew/services": {
-        "revision": "cec47abdacbad1d17c5dedc31193c859c23a8c05"
+        "revision": "5a691e76ccf9747e74af4a1cb0d08991e3d8a302"
       },
       "rconroy293/seventeenlands": {
         "revision": "7a730edf6efdfc72e77b9f7d34b450bc351ba3d3"
@@ -40,7 +40,7 @@
         }
       },
       "telegram": {
-        "version": "10.7,259037",
+        "version": "10.7.1,259074",
         "options": {
           "full_name": "telegram"
         }
@@ -55,6 +55,12 @@
         "version": "0.75",
         "options": {
           "full_name": "rectangle"
+        }
+      },
+      "superhuman": {
+        "version": "25.1.11",
+        "options": {
+          "full_name": "superhuman"
         }
       }
     },
@@ -1159,7 +1165,7 @@
   "system": {
     "macos": {
       "ventura": {
-        "HOMEBREW_VERSION": "4.2.6",
+        "HOMEBREW_VERSION": "4.2.7",
         "HOMEBREW_PREFIX": "/opt/homebrew",
         "Homebrew/homebrew-core": "api",
         "CLT": "15.1.0.0.1.1700200546",
