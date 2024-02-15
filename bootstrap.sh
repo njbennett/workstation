@@ -8,4 +8,4 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # install asdf
-git clone "https://github.com/asdf-vm/asdf.git" "~/.asdf" --branch "v0.12.0"
+git clone "https://github.com/asdf-vm/asdf.git" ~/.asdf --branch "v0.12.0"

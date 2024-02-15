@@ -1,6 +1,9 @@
 #!/bin/zsh
 set -eu
 
+ln -sf ~/workspace/workstation/.zshrc ~/.zshrc
+ln -sf ~/workspace/workstation/.gitconfig ~/.gitconfig
+
 brew bundle
 brew bundle --force cleanup
 brew update
@@ -16,9 +19,6 @@ asdf global elixir 1.14.3-otp-25
 asdf plugin add lua https://github.com/Stratus3D/asdf-lua.git
 asdf install lua 5.1.5
 asdf global lua 5.1.5
-
-sed -i '' 's/plugins=.*/plugins=(git z)/' ~/.zshrc
-grep -qxF '. /usr/local/opt/asdf/libexec/asdf.sh' ~/.zshrc || echo '. /usr/local/opt/asdf/libexec/asdf.sh' >> ~/.zshrc
 
 ln -sf ~/workspace/workstation/init.lua ~/.config/nvim/init.lua
 git config --global --add url."git@github.com:".insteadOf "https://github.com/"
