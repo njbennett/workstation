@@ -28,3 +28,5 @@ nvim -es ./update-plugins.txt
 
 git config --global user.name "Nat Bennett"
 git config --global user.email nat@simplermachines.com
+
+mix archive.install hex phx_new
