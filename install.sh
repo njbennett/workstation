@@ -4,9 +4,9 @@ set -eux
 ln -sf ~/workspace/workstation/.zshrc ~/.zshrc
 ln -sf ~/workspace/workstation/.gitconfig ~/.gitconfig
 
+brew update
 brew bundle
 brew bundle --force cleanup
-brew update
 
 set +e
 asdf plugin add erlang
@@ -29,4 +29,4 @@ nvim -es ./update-plugins.txt
 git config --global user.name "Nat Bennett"
 git config --global user.email nat@simplermachines.com
 
-mix archive.install hex phx_new
+mix archive.install hex phx_new --force

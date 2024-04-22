@@ -1,4 +1,5 @@
 # tap all the normal stuff
+
 tap "homebrew/bundle"
 tap "homebrew/cask-versions"
 tap "homebrew/services"
@@ -6,6 +7,7 @@ tap "homebrew/services"
 # terminal and text editor
 cask "iterm2"
 brew "nvim"
+cask "zed"
 
 # things to install things
 brew "cask"
@@ -17,6 +19,7 @@ cask "tuple"
 
 # enterprise business value
 cask "spotify"
+cask "slack"
 
 # make the computer computer more good
 cask "rectangle"
@@ -42,13 +45,12 @@ cask "telegram"
 cask "anki"
 cask "superhuman"
 
-# Need a Postgres for most app dev work
-brew "postgresql", restart_service: true
-brew "postgresql@13"
-
 # for Zero development
 brew "flyctl"
 brew "ctags"
 
 # for Nvim plugins
 brew "ripgrep"
+
+# for spiking for card_rater
+cask "livebook"
