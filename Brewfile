@@ -44,6 +44,7 @@ cask "freedom"
 cask "telegram"
 cask "anki"
 cask "superhuman"
+cask "obsidian"
 
 # for Zero development
 brew "flyctl"

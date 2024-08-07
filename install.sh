@@ -5,7 +5,7 @@ ln -sf ~/workspace/workstation/.zshrc ~/.zshrc
 ln -sf ~/workspace/workstation/.gitconfig ~/.gitconfig
 
 brew update
-brew bundle
+arch -arm64 brew bundle
 brew bundle --force cleanup
 
 set +e
