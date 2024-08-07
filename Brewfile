@@ -44,6 +44,7 @@ cask "freedom"
 cask "telegram"
 cask "anki"
 cask "superhuman"
+cask "obsidian"
 
 # for Zero development
 brew "flyctl"
@@ -54,3 +55,11 @@ brew "ripgrep"
 
 # for spiking for card_rater
 cask "livebook"
+
+# for kickapoo
+brew "node"
+cask "docker"
+brew "postgresql"
+
+brew "libpq"
+brew "cloc"

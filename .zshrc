@@ -101,3 +101,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias ll='ls -al'
+
+
+export PATH="${PATH}:$(python3 -m site --user-base)/bin"
+export PATH="/opt/homebrew/opt/libpq/bin:${PATH}"
