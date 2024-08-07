@@ -9,3 +9,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 # install asdf
 git clone "https://github.com/asdf-vm/asdf.git" ~/.asdf --branch "v0.12.0"
+
+# Set the git username
+git config --global user.name "Nat Bennett"
+git config --global user.email nat@simplermachines.com
