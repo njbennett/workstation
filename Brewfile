@@ -46,10 +46,6 @@ cask "anki"
 cask "superhuman"
 cask "obsidian"
 
-# for Zero development
-brew "flyctl"
-brew "ctags"
-
 # for Nvim plugins
 brew "ripgrep"
 
