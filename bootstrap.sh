@@ -13,3 +13,6 @@ git clone "https://github.com/asdf-vm/asdf.git" ~/.asdf --branch "v0.12.0"
 # Set the git username
 git config --global user.name "Nat Bennett"
 git config --global user.email nat@simplermachines.com
+
+# install Nix
+curl -L https://nixos.org/nix/install | sh
