@@ -19,7 +19,16 @@ local plugins = {
 	{ 'ctrlpvim/ctrlp.vim' },
 	{ 'kevinhwang91/promise-async' },
 	{ 'kevinhwang91/nvim-ufo' },
-	{ 'nvim-treesitter/nvim-treesitter', build = ":TSUpdate" },
+	{
+		'nvim-treesitter/nvim-treesitter',
+		config = function()
+			require("nvim-treesitter.configs").setup({
+				ensure_installed = { "elixir", "eex", "heex" },
+				highlight = { enable = true },
+				indent = { enable = true },
+			})
+		end
+	},
 	{
 		"folke/which-key.nvim",
 		event = "VeryLazy",
