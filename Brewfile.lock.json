@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "c16d5c9c553be18b9c0d3832d7f46881ff23d941"
+        "revision": "2e4e17a6a193afd7a3d2f9b5a8a9aab9c761f0fc"
       },
       "homebrew/cask": {
         "revision": "581d8845ef4ed6d731b547bb152486f97ce7e34e"
@@ -14,7 +14,7 @@
         "revision": "92fa3ad27955bd3a8ae47c7c51152037d50ed026"
       },
       "homebrew/services": {
-        "revision": "ee2e62a109706e431a4220e26cd0d5eb16ead74a"
+        "revision": "3002ac3a0523f3fdcfe4f545182fcae5cd027f38"
       },
       "rconroy293/seventeenlands": {
         "revision": "7a730edf6efdfc72e77b9f7d34b450bc351ba3d3"
@@ -28,7 +28,7 @@
     },
     "cask": {
       "iterm2": {
-        "version": "3.5.3",
+        "version": "3.5.4",
         "options": {
           "full_name": "iterm2"
         }
@@ -40,7 +40,7 @@
         }
       },
       "telegram": {
-        "version": "10.15.4,266662",
+        "version": "11.0.2,267159",
         "options": {
           "full_name": "telegram"
         }
@@ -64,7 +64,7 @@
         }
       },
       "tuple": {
-        "version": "0.119.4,2024-08-02,254222191",
+        "version": "0.119.5,2024-08-07,f08a85b60",
         "options": {
           "full_name": "tuple"
         }
@@ -76,7 +76,7 @@
         }
       },
       "spotify": {
-        "version": "1.2.43.420,c7b23f70,2569",
+        "version": "1.2.44.405,81fd6352,3712",
         "options": {
           "full_name": "spotify"
         }
@@ -88,7 +88,7 @@
         }
       },
       "zed": {
-        "version": "0.147.2",
+        "version": "0.148.1",
         "options": {
           "full_name": "zed"
         }
@@ -1329,7 +1329,7 @@
   "system": {
     "macos": {
       "ventura": {
-        "HOMEBREW_VERSION": "4.3.14",
+        "HOMEBREW_VERSION": "4.3.16",
         "HOMEBREW_PREFIX": "/opt/homebrew",
         "Homebrew/homebrew-core": "api",
         "CLT": "15.1.0.0.1.1700200546",
