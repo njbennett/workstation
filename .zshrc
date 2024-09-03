@@ -2,6 +2,7 @@
 #export PATH="${HOME}/bin:/usr/local/bin:${PATH}"
 
 export PATH="/opt/homebrew/bin:${PATH}"
+export PATH="/Users/nat/Library/Python/3.9/bin:${PATH}"
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh

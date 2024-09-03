@@ -27,3 +27,5 @@ ln -sf ~/workspace/workstation/lazy-lock.json ~/.config/nvim/lazy-lock.json
 nvim -es ./update-plugins.txt
 
 mix archive.install hex phx_new --force
+
+pip3 install gigalixir
