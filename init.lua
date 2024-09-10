@@ -23,7 +23,7 @@ local plugins = {
 		'nvim-treesitter/nvim-treesitter',
 		config = function()
 			require("nvim-treesitter.configs").setup({
-				ensure_installed = { "elixir", "eex", "heex" },
+				ensure_installed = { "lua" },
 				highlight = { enable = true },
 				indent = { enable = true },
 			})
@@ -142,7 +142,7 @@ require("mason-lspconfig").setup()
 
 
 require("mason-lspconfig").setup {
-	ensure_installed = { "lua_ls", "rust_analyzer" },
+	ensure_installed = { "lua_ls" },
 }
 
 local capabilities = vim.lsp.protocol.make_client_capabilities()
@@ -151,7 +151,7 @@ capabilities.textDocument.foldingRange = {
 	lineFoldingOnly = true
 }
 --local language_servers = require("lspconfig").util.available_servers() -- or list servers manually like {'gopls', 'clangd'}
-local language_servers = { 'lua_ls', 'gopls' }
+local language_servers = { 'lua_ls' }
 for _, ls in ipairs(language_servers) do
 	require('lspconfig')[ls].setup({
 		capabilities = capabilities,

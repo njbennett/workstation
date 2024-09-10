@@ -14,11 +14,11 @@ brew "wget"
 
 # pairing
 brew "tmate"
-cask "tuple"
+#cask "tuple"
 
 # enterprise business value
 cask "spotify"
-cask "slack"
+#cask "slack"
 
 # make the computer computer more good
 cask "rectangle"
@@ -39,14 +39,7 @@ brew "z"
 brew "hey"
 
 # some apps I like to have around
-cask "freedom"
-cask "telegram"
-cask "anki"
-cask "superhuman"
-cask "obsidian"
+#cask "obsidian"
 
 # for Nvim plugins
 brew "ripgrep"
-
-# for spiking for card_rater
-cask "livebook"
