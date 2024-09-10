@@ -1,7 +1,6 @@
 # tap all the normal stuff
 
 tap "homebrew/bundle"
-tap "homebrew/cask-versions"
 tap "homebrew/services"
 
 # terminal and text editor

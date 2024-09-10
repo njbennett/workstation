@@ -22,6 +22,7 @@ asdf global elixir 1.14.3-otp-25
 asdf install lua 5.1.5
 asdf global lua 5.1.5
 
+mkdir -p ~/.config/nvim
 ln -sf ~/workspace/workstation/init.lua ~/.config/nvim/init.lua
 ln -sf ~/workspace/workstation/lazy-lock.json ~/.config/nvim/lazy-lock.json
 nvim -es ./update-plugins.txt
