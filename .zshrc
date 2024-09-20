@@ -3,6 +3,10 @@
 
 export PATH="/opt/homebrew/bin:${PATH}"
 export PATH="/Users/nat/Library/Python/3.9/bin:${PATH}"
+export PATH="/usr/local/bin/:${PATH}"
+
+echo "Hey, remember to set GH_PKG_TOKEN for the docker pull"
+#export GH_PKG_TOKEN=
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
