@@ -43,3 +43,9 @@ brew "hey"
 
 # for Nvim plugins
 brew "ripgrep"
+
+# for Tampa specifically
+cask "webstorm"
+cask "google-cloud-sdk"
+brew "postgresql"
+cask "notion"
