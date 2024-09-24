@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "8b0df4d29278e734a00121dd453fe9758e5486ed"
+        "revision": "b82ff8731cffa2725007a2d3907b3c626f954477"
       },
       "homebrew/cask": {
         "revision": "581d8845ef4ed6d731b547bb152486f97ce7e34e"
@@ -14,7 +14,7 @@
         "revision": "92fa3ad27955bd3a8ae47c7c51152037d50ed026"
       },
       "homebrew/services": {
-        "revision": "a362409022882ef5737e86df6e6edb8b714c2646"
+        "revision": "c7f12486d51773c385fd695218d785aa13240a25"
       },
       "rconroy293/seventeenlands": {
         "revision": "7a730edf6efdfc72e77b9f7d34b450bc351ba3d3"
@@ -88,7 +88,7 @@
         }
       },
       "zed": {
-        "version": "0.153.6",
+        "version": "0.153.7",
         "options": {
           "full_name": "zed"
         }
@@ -1427,7 +1427,7 @@
         "macOS": "13.6.4"
       },
       "sonoma": {
-        "HOMEBREW_VERSION": "4.3.23",
+        "HOMEBREW_VERSION": "4.3.24",
         "HOMEBREW_PREFIX": "/opt/homebrew",
         "Homebrew/homebrew-core": "api",
         "CLT": "15.3.0.0.1.1708646388",

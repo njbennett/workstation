@@ -40,6 +40,7 @@ brew "hey"
 
 # some apps I like to have around
 #cask "obsidian"
+cask "anki"
 
 # for Nvim plugins
 brew "ripgrep"
