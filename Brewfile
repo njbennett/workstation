@@ -48,5 +48,6 @@ brew "ripgrep"
 # for Tampa specifically
 cask "webstorm"
 cask "google-cloud-sdk"
-brew "postgresql"
+brew "postgresql@16"
 cask "notion"
+brew "jesseduffield/lazydocker/lazydocker"
