@@ -43,7 +43,7 @@ Here's a checklist of the other stuff you usually like to do on a new workstatio
 
 ## On making SSH keys
 ```
-ssh-keygen -t ed25519 -C "nat@simplermachines.com"
+ssh-keygen -t ed25519 -C "${EMAIL}"
 cat .ssh/id_ed25519.pub | pbcopy
 ```
 Paste that into [keys](https://github.com/settings/keys)

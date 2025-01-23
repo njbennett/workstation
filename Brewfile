@@ -25,6 +25,7 @@ cask "rectangle"
 cask "flycut"
 
 # good tools to have on the command line
+brew "rg"
 brew "bat"
 brew "direnv"
 brew "fswatch"
