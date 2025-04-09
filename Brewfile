@@ -11,6 +11,7 @@ cask "zed"
 # things to install things
 brew "cask"
 brew "wget"
+brew "mise"
 
 # pairing
 brew "tmate"
