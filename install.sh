@@ -8,9 +8,10 @@ brew update
 arch -arm64 brew bundle
 brew bundle --force cleanup
 
-mise use erlang@25.2.3
-mise use elixir@1.14.3-otp-25
+mise use erlang@26.2.5.2
+mise use elixir@1.17.2-otp-26
 mise use lua@5.1.5
+mise prune
 
 mkdir -p ~/.config/nvim
 ln -sf ~/workspace/workstation/init.lua ~/.config/nvim/init.lua
