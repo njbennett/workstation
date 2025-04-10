@@ -4,6 +4,9 @@
 export PATH="/opt/homebrew/bin:${PATH}"
 export PATH="/Users/nat/Library/Python/3.9/bin:${PATH}"
 
+# Postgres App binaries
+export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:${PATH}"
+
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
