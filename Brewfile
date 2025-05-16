@@ -24,6 +24,8 @@ cask "slack"
 # make the computer computer more good
 cask "rectangle"
 cask "flycut"
+cask "1password"
+cask "1password-cli"
 
 # good tools to have on the command line
 brew "rg"
