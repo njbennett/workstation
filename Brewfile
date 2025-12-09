@@ -39,6 +39,10 @@ brew "tree"
 brew "watch"
 brew "z"
 
+# Steve Yegge's beads - memory upgrade for coding agents
+tap "steveyegge/beads"
+brew "bd"
+
 # sometimes you just want to run a load test you know?
 brew "hey"
 
@@ -54,3 +58,6 @@ brew "ripgrep"
 
 # for spiking for card_rater
 cask "livebook"
+
+# StoryTime development
+cask "chromedriver"
