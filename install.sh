@@ -3,6 +3,7 @@ set -eux
 
 ln -sf ~/workspace/workstation/.zshrc ~/.zshrc
 ln -sf ~/workspace/workstation/.gitconfig ~/.gitconfig
+ln -sf ~/workspace/workstation/.git-authors ~/.git-authors
 
 brew update
 arch -arm64 brew bundle

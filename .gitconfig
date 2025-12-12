@@ -3,3 +3,14 @@
 [user]
 	name = Nat Bennett
 	email = nat@simplermachines.com
+
+[trailer]
+	ifexists = addIfDifferent
+[duet "env"]
+	git-author-initials = nb
+	git-author-name = Nat Bennett
+	git-author-email = nat@simplermachines.com
+	mtime = 1765580450
+	git-committer-initials = ca
+	git-committer-name = Coby Almond
+	git-committer-email = coby@cobyalmond.com

@@ -108,3 +108,9 @@ source $ZSH/oh-my-zsh.sh
 
 alias ll='ls -al'
 alias ms='mix test --stale'
+
+# git-duet configuration
+export GIT_DUET_GLOBAL=true
+export GIT_DUET_ROTATE_AUTHOR=1
+export GIT_DUET_SET_GIT_USER_CONFIG=1
+export GIT_DUET_ALLOW_MULTIPLE_AUTHORS=1

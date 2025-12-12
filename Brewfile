@@ -16,6 +16,8 @@ brew "mise"
 # pairing
 brew "tmate"
 cask "tuple"
+tap "git-duet/tap"
+brew "git-duet"
 
 # enterprise business value
 cask "spotify"
