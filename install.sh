@@ -9,9 +9,6 @@ brew update
 arch -arm64 brew bundle
 brew bundle --force cleanup
 
-# complete the install of chromedriver
-xattr -d com.apple.quarantine $(which chromedriver)
-
 mise use erlang@26.2.5.2
 mise use elixir@1.17.2-otp-26
 mise use lua@5.1.5
