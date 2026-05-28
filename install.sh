@@ -24,3 +24,5 @@ mix archive.install hex phx_new --force
 
 /Library/Developer/CommandLineTools/usr/bin/python3 -m pip install --upgrade pip
 pip3 install gigalixir
+
+mise use -g rust
