@@ -61,3 +61,7 @@ cask "livebook"
 
 # StoryTime development
 cask "chromedriver"
+
+# AWS infrastructure management
+brew "awscli"
+brew "opentofu"
