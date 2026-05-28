@@ -41,9 +41,7 @@ brew "tree"
 brew "watch"
 brew "z"
 
-# Steve Yegge's beads - memory upgrade for coding agents
-tap "steveyegge/beads"
-brew "bd"
+cask 'claude-code'
 
 # sometimes you just want to run a load test you know?
 brew "hey"
